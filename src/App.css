@@ -1,25 +1,13 @@
-.Wrapper {
-  height: 100%;
-}
-
-.Wrapper>.NameWrapper {
-  height: 50%;
-  padding: 20px;
-}
-
-.Wrapper > .NameWrapper > h1 {
-  padding: 0;
-  margin: 0;
-  font-size: 5em;
-  font-weight: normal;
-}
-
-.Wrapper>.ButtonWrapper {
-  height: 50%;
-  padding: 20px;
-}
-
-.Wrapper>.ButtonWrapper>button {
-  min-width: 120px;
+.TodoWrapper {
   padding: 10px;
+  border-radius: 5px;
+  border: solid 1px #EEEEEE;
+}
+
+.TodoWrapper > .Todo {
+  padding: 10px;
+}
+
+.TodoWrapper > .Incompleted {
+  font-weight: bold;
 }
